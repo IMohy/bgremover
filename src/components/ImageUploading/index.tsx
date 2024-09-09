@@ -122,7 +122,7 @@ export default function UploadSection() {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.9 }}
-                        src="/src/assets/logo-black.svg"
+                        src="/logo-black.svg"
                         alt="Uploaded Image"
                         className="aspect-[4/3] rounded-md object-cover w-[350px] h-[300px]"
                     />

@@ -10,7 +10,7 @@ const Header = () => {
         <div className="box">
             <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 flex items-center justify-between w-full max-w-7xl p-4 bg-black shadow-md rounded-full">
                 <div className="flex items-center gap-2">
-                    <img src="/src/assets/logo-white.svg" alt="Logo" className="w-[50px] h-[50px]" />
+                    <img src="/logo-white.svg" alt="Logo" className="w-[50px] h-[50px]" />
                     <Paragraph text="Remove It Easy" className="text-white font-bold" />
                 </div>
                 <nav className="flex items-center justify-center mx-4">
