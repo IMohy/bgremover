@@ -4,9 +4,11 @@ type LayoutProps = {
 };
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <div>
+        <div className="flex flex-col min-h-screen">
             <Header />
-            <main className="flex-grow mt-28 p-4">{children}</main>
+            <main className="flex-grow px-4 py-6 sm:py-8 md:py-10 overflow-y-auto">
+                {children}
+            </main>
         </div>
     );
 };

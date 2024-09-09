@@ -103,7 +103,7 @@ export default function UploadSection() {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.9 }}
-                        className="flex items-center justify-center gap-4"
+                        className="flex items-center justify-center gap-4 flex-wrap"
                     >
                         <div className="border-4 border-black rounded-xl">
                             <img
